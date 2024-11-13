@@ -16,8 +16,8 @@ public class Ejemplo02 {
         
         pais = "Ecuador";
         //      0123456
-        char letra = pais.charAt(0);
+        char letra = pais.charAt(2);
         System.out.printf("%s\n", letra);
-        
+        //charAt se usa para contar caracteres de un cadena siempre contando el primer caracter desde 0.
     }
 }
